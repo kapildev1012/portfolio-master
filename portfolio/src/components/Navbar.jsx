@@ -214,16 +214,16 @@ export default function Navbar() {
                                             <X size={18} color="#fff" />
                                         </div>
                                     </div>
-                                    <span className="text-[7px] font-mono tracking-[0.4em] text-white/20 uppercase">EXIT</span>
+                                    <span className="text-[7px] font-mono tracking-[0.4em] text-white/20 uppercase"></span>
                                 </button>
                                 <div className="flex flex-col items-center gap-1.5 mt-2">
                                     <div className="flex items-center justify-center gap-2">
-                                        <div className="size-1.5 rounded-full bg-purple-500 shadow-[0_0_8px_rgba(168,85,247,0.8)] animate-pulse" />
-                                        <span className="text-[9px] font-mono tracking-[0.4em] uppercase text-purple-400/70">
-                                            ....
+                                        <div className="size-1 rounded-full bg-purple-500 shadow-[0_0_8px_rgba(168,85,247,0.8)] animate-pulse" />
+                                        <span className="text-[7.5px] font-mono tracking-[0.4em] uppercase text-purple-400/50">
+                                            ......
                                         </span>
                                     </div>
-                                    <span className="text-white text-2xl font-black tracking-[0.1em] uppercase select-none font-sans text-center">
+                                    <span className="text-white text-xl font-black tracking-[0.1em] uppercase select-none font-sans text-center">
                                         Kapil Dev
                                     </span>
                                 </div>
@@ -235,28 +235,28 @@ export default function Navbar() {
                                     <div className="h-px w-full max-w-[280px] bg-gradient-to-r from-transparent via-purple-500/30 to-transparent mb-6 relative">
                                         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-[2px] bg-purple-500/60 shadow-[0_0_15px_rgba(168,85,247,0.6)]" />
                                     </div>
-                                    <span className="text-base sm:text-lg text-white/80 font-medium tracking-wide leading-relaxed text-center px-4 max-w-[450px]">
+                                    <span className="text-sm sm:text-base text-white/70 font-medium tracking-wide leading-relaxed text-center px-6 max-w-[400px]">
                                         Full Stack Developer & Technical Architect crafting high-performance digital interfaces.
                                     </span>
                                 </div>
 
                                 <div className="grid grid-cols-2 gap-y-8 gap-x-6 w-full mt-4">
                                     <div className="flex flex-col items-center gap-2">
-                                        <span className="text-[8px] font-mono text-purple-500/50 tracking-[0.4em] uppercase">LOCATION</span>
-                                        <span className="text-sm font-bold tracking-[0.2em] text-white">INDIA // IN</span>
+                                        <span className="text-[7px] font-mono text-white-500/30 tracking-[0.4em] uppercase">LOCATION</span>
+                                        <span className="text-xs font-bold tracking-[0.2em] text-white/90">INDIA // IN</span>
                                     </div>
                                     <div className="flex flex-col items-center gap-2">
-                                        <span className="text-[8px] font-mono text-purple-500/50 tracking-[0.4em] uppercase">STATUS</span>
+                                        <span className="text-[7px] font-mono text-white-500/30 tracking-[0.4em] uppercase">STATUS</span>
                                         <div className="flex items-center justify-center gap-2">
-                                            <div className="size-1.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_8px_rgba(52,211,153,0.5)]" />
-                                            <span className="text-sm font-bold tracking-[0.2em] text-emerald-400">ACTIVE</span>
+                                            <div className="size-1 rounded-full bg-emerald-400/80 animate-pulse shadow-[0_0_8px_rgba(52,211,153,0.5)]" />
+                                            <span className="text-xs font-bold tracking-[0.2em] text-emerald-400/80 uppercase">Active</span>
                                         </div>
                                     </div>
-                                    <div className="flex flex-col items-center col-span-2 w-full gap-5 pt-6 border-t border-white/5">
-                                        <span className="text-[8px] font-mono text-purple-500/50 tracking-[0.4em] uppercase">TECH_STACK</span>
-                                        <div className="flex flex-wrap justify-center gap-2.5 w-full">
+                                    <div className="flex flex-col items-center col-span-2 w-full gap-4 pt-6 border-t border-white/5">
+                                        <span className="text-[7px] font-mono text-purple-500/30 tracking-[0.4em] uppercase">TECH_STACK</span>
+                                        <div className="flex flex-wrap justify-center gap-2 w-full">
                                             {['REACT', 'NODE.JS', 'NEXT.JS', 'THREE.JS'].map(tech => (
-                                                <span key={tech} className="text-[9px] font-mono px-4 py-2 rounded-lg border border-white/10 bg-white/5 text-white/60 uppercase tracking-widest">{tech}</span>
+                                                <span key={tech} className="text-[8px] font-mono px-3 py-1.5 rounded-lg border border-white/5 bg-white/5 text-white/40 uppercase tracking-widest">{tech}</span>
                                             ))}
                                         </div>
                                     </div>
@@ -273,13 +273,13 @@ export default function Navbar() {
                                             initial={{ opacity: 0, x: 20 }}
                                             animate={{ opacity: 1, x: 0 }}
                                             transition={{ delay: 0.1 + (i * 0.08), ease: "easeOut" }}
-                                            className="w-full flex flex-col items-center py-6 sm:py-8 group active:bg-white/5 transition-all relative text-center"
+                                            className="w-full flex flex-col items-center py-5 sm:py-6 group active:bg-white/5 transition-all relative text-center"
                                         >
                                             <div className="absolute left-[-12px] top-1/2 -translate-y-1/2 w-[3px] h-0 bg-purple-500 group-hover:h-[60%] transition-all duration-300 rounded-r" />
-                                            <span className="text-[9px] font-mono text-white/20 tracking-[0.5em] uppercase mb-3 text-center">
+                                            <span className="text-[7.5px] font-mono text-white/10 tracking-[0.5em] uppercase mb-4 text-center">
                                                 PROCESS_0{i + 1}
                                             </span>
-                                            <span className="text-3xl sm:text-4xl font-light tracking-[0.2em] uppercase text-white/40 group-hover:text-white transition-all duration-300 text-center">
+                                            <span className="text-2xl sm:text-3xl font-light tracking-[0.25em] uppercase text-white/30 group-hover:text-white transition-all duration-300 text-center">
                                                 {link.label}
                                             </span>
                                         </motion.a>
@@ -297,15 +297,15 @@ export default function Navbar() {
                                         transition={{ delay: 0.1 + (NAV_LINKS.length * 0.08), ease: "easeOut" }}
                                         className="w-full flex flex-col items-center justify-center py-8 group px-8 overflow-hidden relative rounded-[20px] border border-indigo-500/20 bg-indigo-500/5 hover:bg-indigo-500/10 transition-colors text-center mt-4"
                                     >
-                                        <div className="flex flex-col items-center gap-3 relative z-10">
-                                            <span className="text-[9px] font-mono text-indigo-400/50 tracking-[0.5em] uppercase text-center">
-                                                EXT_REDIRECT
+                                        <div className="flex flex-col items-center gap-2.5 relative z-10">
+                                            <span className="text-[7.5px] font-mono text-indigo-400/30 tracking-[0.5em] uppercase text-center">
+
                                             </span>
-                                            <div className="flex items-center gap-4">
-                                                <span className="text-2xl sm:text-3xl font-black tracking-widest uppercase text-indigo-400 group-hover:text-indigo-300 transition-colors text-center">
+                                            <div className="flex items-center gap-3">
+                                                <span className="text-xl sm:text-2xl font-black tracking-widest uppercase text-indigo-400 group-hover:text-indigo-300 transition-colors text-center">
                                                     Resume
                                                 </span>
-                                                <ArrowUpRight size={24} className="text-indigo-400 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform relative z-10" />
+                                                <ArrowUpRight size={20} className="text-indigo-400 transform group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform relative z-10" />
                                             </div>
                                         </div>
                                         <div className="absolute inset-0 bg-indigo-500/0 group-hover:bg-indigo-500/10 transition-colors duration-500" />

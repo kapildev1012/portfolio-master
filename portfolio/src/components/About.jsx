@@ -140,11 +140,11 @@ export default function About() {
                         <span className="text-indigo-400 text-[10px] font-bold tracking-[0.2em] uppercase">Discovery</span>
                     </motion.div>
 
-                    <motion.h2 variants={fadeUp} className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tighter leading-[0.9] mb-20 md:mb-32">
+                    <motion.h2 variants={fadeUp} className="text-3xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tighter leading-[0.9] mb-30 md:mb-32">
                         Get to know <span style={GRAD}>Me</span>
                     </motion.h2>
 
-                    <motion.p variants={fadeUp} className="text-white/40 text-base md:text-lg font-medium max-w-2xl leading-relaxed">
+                    <motion.p variants={fadeUp} className="text-white/60 text-base md:text-lg font-medium max-w-2xl leading-relaxed">
                         Innovative Full-Stack Software Engineer (MERN) specializing in building scalable, high-performance web applications and enterprise solutions.
                     </motion.p>
                 </motion.div>
