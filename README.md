@@ -1,37 +1,71 @@
-![App Screenshot](https://github.com/Deadcoder001/AshifPf/blob/main/screen.gif)
+# [Kapil Dev](https://github.com/kapildev1012) // STATE-OF-THE-ART PORTFOLIO
 
-# AshifPf - Personal Portfolio 
+![App Screenshot](./screen.gif)
 
-![Repo Views](https://komarev.com/ghpvc/?username=Deadcoder001-AshifPf&label=Repo%20Views&style=flat-square&color=blue)
+> **TECHNICAL_MANIFESTO**: A premium, high-performance digital interface built for the next generation of the web. Featuring a custom **Cyber-HUD** navigation system, 3D immersion, and precise vertical rhythm.
 
-This is a personal portfolio website built with React, Vite, and other modern web technologies.
+---
 
-## Live Demo
+## ⚡ CORE_SYSTEM_FEATURES
 
-Live Demo: https://ashifelahi.netlify.app/
+### 01 // Cyber-HUD Navigation
+A world-class, terminal-inspired mobile interface designed with human-centric spatial layout. 
+- **Telemetry Display**: Live system clock and connectivity status.
+- **Glassmorphism**: 32px blur-depth with multi-layered scanline overlays.
+- **Responsive HUD**: Fully adaptive "Terminal Island" layout for all devices.
 
+### 02 // 3D Immersion
+Deep integration with **Spline** for real-time 3D environments that respond to user interaction, providing an editorial editorial sense of depth.
 
-## 🚀 About 
-A modern, responsive portfolio layout.
-* Interactive animations using **Framer Motion** and **GSAP**.
-* 3D elements rendered with **Spline**.
-* Smooth scrolling experience provided by **Lenis**.
+### 03 // Precision Engineering
+Built with a focus on **micro-animations** and **visual density**. Every pixel is accounted for to create a "masterpiece" user experience.
 
-## Tech Used
+---
 
-**Client:** React, Vite, TailwindCSS, Framer Motion, GSAP, Spline, Lenis
+## 🛠 TECH_STACK
 
-## Feedback
+| LAYER | TECHNOLOGIES |
+| :--- | :--- |
+| **RUNTIME** | React 18 + Vite |
+| **STYLING** | TailwindCSS + Vanilla CSS Glassmorphism |
+| **MOTION** | Framer Motion (State Orchestration) |
+| **3D** | Spline Design System |
+| **UX** | Lenis (Smooth Scrolling) |
 
-If you have any feedback, please reach out to us at asifelahi6@gmail.com
+---
 
-## Deployment
+## 🚀 SYSTEM_INITIALIZATION
 
-To deploy this project run:
+To initialize the project locally, follow these protocols:
 
-In the project directory, you can run the following commands:
+```bash
+# Clone the encrypted core
+git clone https://github.com/kapildev1012/React-Personal-Portfolio-main.git
 
-* `npm install`
+# Enter the portfolio directory
+cd React-Personal-Portfolio-main/portfolio
 
-* `npm run dev`
-    Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) (or the port specified in your console) to view it in the browser.
+# Install dependencies
+npm install
+
+# Boot development environment
+npm run dev
+```
+
+---
+
+## 📡 TERMINAL_ACCESS
+
+Connect with the architect:
+
+- **GITHUB**: [@kapildev1012](https://github.com/kapildev1012)
+- **LINKEDIN**: [Kapil Dev](https://linkedin.com/in/kapil-dev-1012)
+- **INSTAGRAM**: [@kapildev_10](https://instagram.com/kapildev_10)
+
+---
+
+> [!NOTE]
+> This project is a masterpiece creation intended for professional showcase and technical architecture demonstrations. Built with 💜 by Kapil Dev.
+
+---
+*MIT License © 2024 Kapil Dev* 
